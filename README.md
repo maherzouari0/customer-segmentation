@@ -25,10 +25,10 @@ Customers were grouped into meaningful segments:
 ## 📊 Visual Results
 
 ### Elbow Method
-![Elbow](images/elbow.png)
+![Elbow](elbow.png)
 
 ### Customer Clusters
-![Clusters](images/clusters.png)
+![Clusters](clusters.png)
 
 ---
 
