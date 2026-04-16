@@ -51,6 +51,13 @@ Features used:
 This segmentation can help companies improve marketing strategies by targeting specific customer groups.
 
 ---
+## 📊 Visual Results
+
+### Elbow Method
+![Elbow](images/elbow.png)
+
+### Customer Clusters
+![Clusters](images/clusters.png)
 
 ## 👤 Author
 Maher Zouair
