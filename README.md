@@ -1,56 +1,27 @@
 # 📊 Customer Segmentation using K-Means
 
 ## 🎯 Objective
-This project groups customers into different segments based on their income and spending behavior using Machine Learning.
-
----
-
-## 📁 Dataset
-Mall Customers Dataset (Kaggle)
-
-Features used:
-- Annual Income
-- Spending Score
+This project groups customers based on their income and spending behavior using Machine Learning.
 
 ---
 
 ## 🧠 Methodology
-- Data loading and preprocessing
+- Data preprocessing
 - Feature selection
-- Elbow method to determine optimal clusters
+- Elbow method to find optimal clusters
 - K-Means clustering algorithm
-- Visualization of customer segments
 
 ---
 
 ## 📈 Results
-- Customers were grouped into 5 distinct clusters
-- Each cluster represents a different customer behavior type:
-  - High income / high spending
-  - High income / low spending
-  - Low income / high spending
-  - Low income / low spending
+The model successfully grouped customers into 5 segments:
+- High income / high spending
+- High income / low spending
+- Low income / high spending
+- Low income / low spending
 
 ---
 
-## 📊 Visualizations
-- Elbow Method graph (optimal number of clusters)
-- Customer segmentation scatter plot
-
----
-
-## 🛠️ Tools Used
-- Python
-- Pandas
-- Matplotlib
-- Scikit-learn
-
----
-
-## 💡 Business Insight
-This segmentation can help companies improve marketing strategies by targeting specific customer groups.
-
----
 ## 📊 Visual Results
 
 ### Elbow Method
@@ -59,5 +30,14 @@ This segmentation can help companies improve marketing strategies by targeting s
 ### Customer Clusters
 ![Clusters](images/clusters.png)
 
+---
+
+## 💡 Business Impact
+Helps companies improve marketing strategies by targeting different customer groups effectively.
+
+---
+
+## 🛠 Tools
+Python, Pandas, Scikit-learn, Matplotlib
 ## 👤 Author
 Maher Zouair
