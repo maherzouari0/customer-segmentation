@@ -1,41 +1,47 @@
 # 📊 Customer Segmentation using K-Means Clustering
 
-Unsupervised machine learning project that segments customers 
-based on income and spending behavior to support targeted 
-marketing strategies.
+Unsupervised machine learning project that segments customers based on income and spending behavior to support data-driven marketing strategies.
 
 ---
 
 ## 🎯 Objective
 
-Identify distinct customer profiles from a retail dataset 
-using K-Means clustering — turning raw behavioral data into 
-actionable business segments.
+Identify distinct customer segments from behavioral data to enable targeted marketing and support business decision-making.
 
 ---
 
 ## 📁 Dataset
 
-- **Source:** Mall Customers Dataset (200 records)
+- **Source:** Mall Customers Dataset (200 records)  
 - **Features used:** Annual Income (k$), Spending Score (1–100)
 
 ---
 
 ## 🧠 Methodology
 
-1. **Data Loading & Exploration** — inspect shape, types, nulls
-2. **Feature Selection** — income and spending score as clustering features
-3. **Elbow Method** — determine optimal number of clusters (k=5)
-4. **K-Means Clustering** — train final model and assign segment labels
-5. **Visualization** — scatter plot with color-coded segments
-6. **Segment Analysis** — mean income and spending per cluster
+1. **Data Loading & Exploration** — inspected dataset structure and quality  
+2. **Feature Selection** — selected income and spending score as clustering variables  
+3. **Feature Scaling** — standardized features using StandardScaler for optimal distance-based clustering  
+4. **Elbow Method** — determined optimal number of clusters using inertia minimization (k=5)  
+5. **K-Means Clustering** — trained model and assigned cluster labels  
+6. **Visualization** — created scatter plots to visualize customer segments  
+7. **Segment Analysis** — analyzed average income and spending behavior per cluster  
+
+---
+
+## ⚙️ Technical Highlights
+
+- Implemented feature scaling to improve clustering performance  
+- Applied Elbow Method to determine optimal cluster count  
+- Used K-Means clustering for unsupervised learning  
+- Interpreted clusters with business-oriented labels for real-world usability  
 
 ---
 
 ## 📈 Results
 
 | Segment | Avg Income | Avg Spending Score |
-|---|---|---|
+|--------|-----------|--------------------|
 | High Income / High Spending | ~87k | ~82 |
 | High Income / Low Spending | ~88k | ~18 |
 | Medium Income / Medium Spending | ~55k | ~50 |
@@ -56,21 +62,21 @@ actionable business segments.
 
 ## 💡 Business Value
 
-- **High Income / High Spending** → Premium loyalty programs
-- **Low Income / High Spending** → Risk of churn, needs retention offers
-- **High Income / Low Spending** → Untapped potential, needs engagement campaigns
-- Segments provide a clear foundation for data-driven marketing decisions
+- Enables targeted marketing strategies based on customer behavior  
+- Identifies high-value customer segments for retention and loyalty programs  
+- Highlights underperforming segments for engagement and growth opportunities  
+- Supports data-driven decision-making for revenue optimization  
 
 ---
 
 ## 🛠 Tools & Libraries
 
 | Tool | Purpose |
-|---|---|
-| Python | Core language |
-| Pandas | Data manipulation |
+|------|--------|
+| Python | Core programming language |
+| Pandas | Data manipulation and analysis |
 | Scikit-learn | K-Means clustering |
-| Matplotlib | Visualization |
+| Matplotlib | Data visualization |
 
 ---
 
@@ -79,7 +85,3 @@ actionable business segments.
 ```bash
 pip install pandas scikit-learn matplotlib
 python clustering.py
-```
-
-## 🛠 Tools
-Python, Pandas, Scikit-learn, Matplotlib
