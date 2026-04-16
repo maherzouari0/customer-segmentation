@@ -1,20 +1,20 @@
 # 📊 Customer Segmentation using K-Means
 
 ## 🎯 Objective
-This project groups customers based on their income and spending behavior using Machine Learning.
+Group customers into segments based on income and spending behavior using Machine Learning.
 
 ---
 
-## 🧠 Methodology
+## 🧠 Method
 - Data preprocessing
 - Feature selection
-- Elbow method to find optimal clusters
-- K-Means clustering algorithm
+- Elbow method
+- K-Means clustering
 
 ---
 
 ## 📈 Results
-The model successfully grouped customers into 5 segments:
+Customers were grouped into meaningful segments:
 - High income / high spending
 - High income / low spending
 - Low income / high spending
@@ -32,12 +32,10 @@ The model successfully grouped customers into 5 segments:
 
 ---
 
-## 💡 Business Impact
-Helps companies improve marketing strategies by targeting different customer groups effectively.
+## 💡 Business Value
+Helps companies understand customer behavior and improve targeted marketing strategies.
 
 ---
 
 ## 🛠 Tools
 Python, Pandas, Scikit-learn, Matplotlib
-## 👤 Author
-Maher Zouair
